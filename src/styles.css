@@ -1,0 +1,135 @@
+.dolcee-type-box-title {
+  letter-spacing: 0px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #ffffff;
+  padding: 0px 13px;
+  font-size: 23px;
+  font-weight: 500;
+  opacity: 1;
+}
+
+.dolcee-type-box-desc {
+  letter-spacing: 0px;
+  text-align: left;
+  font-weight: normal;
+  font-size: 10px !important;
+  margin: 10px 0px;
+  letter-spacing: 0px;
+  color: #ffffff;
+  padding: 0px 13px;
+  opacity: 0.7;
+}
+.dolcee-type-box-beta {
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  right: 8px;
+  background: #b6f470 0% 0% no-repeat padding-box;
+  border-radius: 14px;
+  font-size: 12px !important;
+  padding: 4px 8px;
+  opacity: 1;
+}
+.prod-desc--title {
+  letter-spacing: 0px;
+  text-align: left;
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: black;
+  opacity: 1;
+  margin-bottom: 0px;
+  font-weight: 400;
+}
+.prod-desc--label {
+  letter-spacing: 0px;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #000000;
+  font-size: 10px;
+  opacity: 0.4;
+  margin-top: 0px;
+}
+.container {
+  min-height: 100vh;
+  width: 100%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.dolcee-icon-color {
+  width: 40px;
+  height: 42px;
+  background: transparent linear-gradient(180deg, #dab9fc 0%, #7d59fc 100%) 0%
+    0% no-repeat padding-box;
+  border-radius: 10px;
+}
+.dolcee-icon-inner {
+  width: 20px;
+  height: 30px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.pricing-box {
+  width: 150px;
+  height: 35px;
+  background: rgba(125, 89, 252, 0.1) 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+}
+
+.notification-box {
+  width: 42px;
+  height: 42px;
+  background: rgba(0, 0, 0, 0.2) 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  li {
+    float: right;
+  }
+}
+
+.menu-container {
+  width: 95%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 250px));
+  grid-row-gap: 1rem;
+  grid-column-gap: 40px;
+  background-color: #ccc;
+}
+@media screen and (min-width: 776px) {
+  .menu-container {
+    width: 95%;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 250px));
+  }
+}
+@media screen and (min-width: 992px) {
+  .menu-container {
+    width: 92%;
+    max-width: 1170px;
+  }
+}
