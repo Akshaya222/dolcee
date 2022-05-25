@@ -7,7 +7,7 @@ import { GoogleLogin } from "react-google-login";
 const Login = () => {
   return (
     <Box className="container">
-      <Grid container spacing={2} style={{ height: "103vh" }}>
+      <Grid container spacing={2} style={{ height: "100vh" }}>
         <Grid
           item
           xs={12}

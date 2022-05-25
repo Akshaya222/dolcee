@@ -79,6 +79,7 @@ li a {
   background: transparent linear-gradient(180deg, #dab9fc 0%, #7d59fc 100%) 0%
     0% no-repeat padding-box;
   border-radius: 10px;
+  margin-left: 15px;
 }
 .dolcee-icon-inner {
   width: 20px;
@@ -91,14 +92,14 @@ li a {
 
 .pricing-box {
   width: 150px;
-  height: 35px;
+  height: 30px;
   background: rgba(125, 89, 252, 0.1) 0% 0% no-repeat padding-box;
   border-radius: 5px;
 }
 
 .notification-box {
-  width: 42px;
-  height: 42px;
+  width: 30px;
+  height: 30px;
   background: rgba(0, 0, 0, 0.2) 0% 0% no-repeat padding-box;
   border-radius: 5px;
   display: flex;
@@ -119,7 +120,7 @@ li a {
   grid-template-columns: repeat(auto-fit, minmax(250px, 250px));
   grid-row-gap: 1rem;
   grid-column-gap: 40px;
-  background-color: #ccc;
+  background-color: #F2F2F2;
 }
 @media screen and (min-width: 776px) {
   .menu-container {

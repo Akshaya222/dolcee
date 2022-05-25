@@ -24,6 +24,7 @@ import MoreVertIcon from "@mui/icons-material/MoreVert";
 import LibraryBooksIcon from "@mui/icons-material/LibraryBooks";
 import SettingsEthernetIcon from "@mui/icons-material/SettingsEthernet";
 import CalculateIcon from "@mui/icons-material/Calculate";
+import { height } from "@mui/system";
 
 const useStyles = makeStyles({
   container: {
@@ -52,14 +53,14 @@ const useStyles = makeStyles({
 
 const Home = () => {
   return (
-    <Box style={{ height: "103vh", width: "100%" }}>
+    <Box style={{ height: "100vh", width: "100%" }}>
       <Box
         style={{
-          height: "16%",
+          height: "10vh",
           background: "white",
-          borderBottom: "1px solid #ccc",
-          paddingLeft: "1rem",
-          paddingRight: "5rem",
+          borderBottom: "1px solid #7070701f",
+          paddingLeft: "1.5rem",
+          paddingRight: "1.5rem",
           display: "flex",
           flexDirection: "row",
           alignItems: "center",
@@ -73,7 +74,7 @@ const Home = () => {
             alignItems: "center",
           }}
         >
-          <MenuIcon style={{ marginRight: "10px" }} />
+          <MenuIcon style={{ marginRight: "10px", height: "20px" }} />
           <Box className="dolcee-icon-color">
             <Box className="dolcee-icon-inner"></Box>
           </Box>
@@ -102,11 +103,11 @@ const Home = () => {
           }}
         >
           <Box className="notification-box">
-            <NotificationsIcon style={{ fontSize: "35px", color: "#ffffff" }} />
+            <NotificationsIcon style={{ fontSize: "20px", color: "#ffffff" }} />
           </Box>
         </Box>
       </Box>
-      <Grid container spacing={2} style={{ height: "84%" }}>
+      <Grid container spacing={2} style={{ height: "90vh" }}>
         <Grid
           item
           xs={12}
@@ -115,8 +116,8 @@ const Home = () => {
           style={{
             background: "white",
             height: "100%",
-            borderRight: "1px solid #ccc",
-            borderTop: "1px solid #ccc",
+            borderRight: "1px solid #7070701f",
+            borderTop: "1px solid #7070701f",
             position: "relative",
           }}
         >
@@ -127,8 +128,9 @@ const Home = () => {
               alignItems: "center",
               border: "1px solid #70707033",
               borderRadius: "10px",
+              height: "50px",
               margin: "10px",
-              padding: "5px 9px",
+              padding: "10px 10px",
               justifyContent: "space-between",
             }}
           >
@@ -209,13 +211,13 @@ const Home = () => {
           md={7}
           lg={9.2}
           style={{
-            background: "#ccc",
+            background: "#F2F2F2",
             height: "100%",
           }}
         >
-          {/* <Menu /> */}
+          <Menu />
           {/** 2nd section here.... */}
-          <ProductDescription />
+          {/* <ProductDescription /> */}
         </Grid>
       </Grid>
     </Box>
